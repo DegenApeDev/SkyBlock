@@ -389,56 +389,56 @@ class Main extends Base implements Listener{
 			// Give the player a starter kit
 			
 			// String
-			$player->getInventory()->addItem(Item::get("287"));
-			$player->getInventory()->addItem(Item::get("287"));
-			$player->getInventory()->addItem(Item::get("287"));
-			$player->getInventory()->addItem(Item::get("287"));
-			$player->getInventory()->addItem(Item::get("287"));
+			$player->getInventory()->addItem(Item::get(287));
+			$player->getInventory()->addItem(Item::get(287));
+			$player->getInventory()->addItem(Item::get(287));
+			$player->getInventory()->addItem(Item::get(287));
+			$player->getInventory()->addItem(Item::get(287));
 			
 			// Emerald
-			$player->getInventory()->addItem(Item::get("388"));
-			$player->getInventory()->addItem(Item::get("388"));
-			$player->getInventory()->addItem(Item::get("388"));
-			$player->getInventory()->addItem(Item::get("388"));
-			$player->getInventory()->addItem(Item::get("388"));
+			$player->getInventory()->addItem(Item::get(388));
+			$player->getInventory()->addItem(Item::get(388));
+			$player->getInventory()->addItem(Item::get(388));
+			$player->getInventory()->addItem(Item::get(388));
+			$player->getInventory()->addItem(Item::get(388));
 			
 			// Sapling
-			$player->getInventory()->addItem(Item::get("6"));
-			$player->getInventory()->addItem(Item::get("6"));
-			$player->getInventory()->addItem(Item::get("6"));
-			$player->getInventory()->addItem(Item::get("6"));
-			$player->getInventory()->addItem(Item::get("6"));
+			$player->getInventory()->addItem(Item::get(6));
+			$player->getInventory()->addItem(Item::get(6));
+			$player->getInventory()->addItem(Item::get(6));
+			$player->getInventory()->addItem(Item::get(6));
+			$player->getInventory()->addItem(Item::get(6));
 			
 			// Water
-			$player->getInventory()->addItem(Item::get("8"));
-			$player->getInventory()->addItem(Item::get("8"));
+			$player->getInventory()->addItem(Item::get(8));
+			$player->getInventory()->addItem(Item::get(8));
 			
 			// Lava
-			$player->getInventory()->addItem(Item::get("10"));
+			$player->getInventory()->addItem(Item::get(10));
 			
 			// Seeds
-			$player->getInventory()->addItem(Item::get("295"));
-			$player->getInventory()->addItem(Item::get("295"));
-			$player->getInventory()->addItem(Item::get("295"));
-			$player->getInventory()->addItem(Item::get("295"));
-			$player->getInventory()->addItem(Item::get("295"));
+			$player->getInventory()->addItem(Item::get(295));
+			$player->getInventory()->addItem(Item::get(295));
+			$player->getInventory()->addItem(Item::get(295));
+			$player->getInventory()->addItem(Item::get(295));
+			$player->getInventory()->addItem(Item::get(295));
 			
 			// Melon seeds
-			$player->getInventory()->addItem(Item::get("362"));
+			$player->getInventory()->addItem(Item::get(362));
 			
 			// Cactus
-			$player->getInventory()->addItem(Item::get("81"));
+			$player->getInventory()->addItem(Item::get(81));
 			
 			// Iron
-			$player->getInventory()->addItem(Item::get("265"));
-			$player->getInventory()->addItem(Item::get("265"));
-			$player->getInventory()->addItem(Item::get("265"));
-			$player->getInventory()->addItem(Item::get("265"));
-			$player->getInventory()->addItem(Item::get("265"));
-			$player->getInventory()->addItem(Item::get("265"));
+			$player->getInventory()->addItem(Item::get(265));
+			$player->getInventory()->addItem(Item::get(265));
+			$player->getInventory()->addItem(Item::get(265));
+			$player->getInventory()->addItem(Item::get(265));
+			$player->getInventory()->addItem(Item::get(265));
+			$player->getInventory()->addItem(Item::get(265));
 			
 			// Chest
-			$player->getInventory()->addItem(Item::get("54"));
+			$player->getInventory()->addItem(Item::get(54));
 			
 			$this->getLogger()->info($name . TextFormat::YELLOW . " made an island");
 		}
