@@ -269,7 +269,7 @@ class Main extends Base implements Listener{
 			$levelName->setBlock(new Vector3($randX+1, $randY, $randZ+4), new Grass());
 			$levelName->setBlock(new Vector3($randX+1, $randY, $randZ+3), new Grass());
 			$levelName->setBlock(new Vector3($randX+1, $randY, $randZ+2), new Grass());
-			$levelName->setBlock(new Vector3($randX+1, $ranxY, $randZ+1), new Grass());
+			$levelName->setBlock(new Vector3($randX+1, $randY, $randZ+1), new Grass());
 			
 			// Middle layer of the island
 			
